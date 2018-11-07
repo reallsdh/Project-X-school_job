@@ -80,6 +80,7 @@ if __name__ == '__main__':
         try:
             getPages(url)
             getinfo(url,jobinfo)
+            jobinfo = []
         except:
             print (name,'Connection Error，Please Click:',url)
 
