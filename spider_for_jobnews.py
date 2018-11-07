@@ -29,9 +29,6 @@ def gethtml(url):
 
 
 def getinfo(url,jobinfo):
-    # jobinfo =[]
-    # headers =[u'公司名\t',u'宣讲会地址\t',u'学校\t',u'详细链接\t',u'宣讲会时间\n']
-    # jobinfo.append(headers)
     totalpage = getPages(url)
     nowaday_time = time.strftime("%Y-%m-%d", time.localtime())
     status = 'on' #标志位
